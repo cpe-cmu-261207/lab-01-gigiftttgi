@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> EXPERIENCE </title>
   <style>
+
     body { 
         font-family: 'Times New Roman', serif !important;
         height: 100%;
@@ -32,33 +33,88 @@
         background-color: #000000;
         color: #A8EB12;}
 
-    p.h {
-        position: absolute;
-        top: 10px;
-        right: 20px;
+    div.h {
+        position: fixed;
+        top: 30px;
+        right: 10px;
         color: #ffffff;
         font-family: 'Times New Roman', serif !important;
-        font-size: 50px;
+        font-size: 60px;
         font-weight: bold;
         letter-spacing: 12px;
-        border-bottom: 2px solid #ffffff;
-        padding: 10px 25px;
+        writing-mode: vertical-rl;
+        display: block;
+        flex-wrap: nowrap;
         }
-    
+
     div.all {    
-        position: absolute;
-        top: 160px;
-        right: 40px;
+        position: relative;
+        top: 50px;
+        left: -50px;
         font-family: monospace!important; }
     
-    p.t{
-        font-size: 12px;
-        color: linen;
+    p.t1 {
+        border: 3px dashed #d5f78b;
+        border-radius: 10px 10px 0px 0px;
+        /*background-color: #d5f78b;*/
+        width: 700px;
+        padding-top: 5px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        display: flex;}
+
+    p.m1 {
+        width: 700px;
+        height: 150px;
+        border-bottom: 3px dashed #d5f78b;
+        border-left: 3px dashed #d5f78b;
+        border-right: 3px dashed #d5f78b;
+        font-size: 20px;
+        color: #ffffff;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        overflow-y: scroll; 
+        display: flex;}
+        
+    p.t2 {
+        border: 3px solid #b2e73e;
+        border-radius: 10px 10px 0px 0px;
+        width: 700px;
+        padding-top: 5px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;}
+
+    p.m2 {
+        width: 700px;
+        height: 150px;
+        border-bottom: 3px solid #b2e73e;
+        border-left: 3px solid #b2e73e;
+        border-right: 3px solid #b2e73e;
+        font-size: 20px;
+        color: #ffffff;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        overflow-y: scroll; }
+
+    div.l{
+      margin-left: 250px;}
+
+    img{
+      position: relative;
+      left: -50px; 
+      border-radius: 8px;
+      width: 210px;
+      float: left;
     }
 
-    .lime{
-      color: #8bdd65; }
-    
     .te{
       color: #A8EB12; }
 
@@ -67,18 +123,33 @@
 </head>
 
 
-<body>
+<body class="max-w-screen-md mx-auto p-2"> 
   <div class="max-w-screen-md mx-auto p-2">
     <ul class="text-black text-l">
        <li><a href="index.html" target="_self">HOME</a></li>
        <li class="bg-black"><a href="exp.html" target="_self"><span class="te">EXPERIENCE</span></a></li>
        <li><a href="con.html" target="_self">CONTACT<br></a></li>
     </ul>
-    <p class="h fixed"> E X P E R I E N C E</p>
-    <div class="all">
-      <p class="t">hi</p>
-
+    <div class="h">MY <span class="te"> EXPERIENCE</span></div> 
+    <div class="all space-y-10">
+      <div class="l">
+        <p class="t1">hiiiiiiiiiiiii</p>
+        <p class="m1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tenetur minima similique quaerat inventore, itaque obcaecati, alias dolorem, tempore repudiandae ea expedita laboriosam repellendus. Itaque placeat nesciunt quas dignissimos tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vero ducimus, expedita numquam in placeat alias similique temporibus, maiores libero atque, quasi earum natus culpa? In aliquam minima dicta hic?</p>
+      </div>  
+      <div>
+        <p class="t2">hiiiiiiiiiiiii</p>
+        <p class="m2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tenetur minima similique quaerat inventore, itaque obcaecati, alias dolorem, tempore repudiandae ea expedita laboriosam repellendus. Itaque placeat nesciunt quas dignissimos tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vero ducimus, expedita numquam in placeat alias similique temporibus, maiores libero atque, quasi earum natus culpa? In aliquam minima dicta hic?</p>
+      </div> 
+      <div class="l">
+        <p class="t1">hiiiiiiiiiiiii</p>
+        <p class="m1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tenetur minima similique quaerat inventore, itaque obcaecati, alias dolorem, tempore repudiandae ea expedita laboriosam repellendus. Itaque placeat nesciunt quas dignissimos tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vero ducimus, expedita numquam in placeat alias similique temporibus, maiores libero atque, quasi earum natus culpa? In aliquam minima dicta hic?</p>
+      </div> 
+      <div>
+        <p class="t2">hiiiiiiiiiiiii</p>
+        <p class="m2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tenetur minima similique quaerat inventore, itaque obcaecati, alias dolorem, tempore repudiandae ea expedita laboriosam repellendus. Itaque placeat nesciunt quas dignissimos tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vero ducimus, expedita numquam in placeat alias similique temporibus, maiores libero atque, quasi earum natus culpa? In aliquam minima dicta hic?</p>
+      </div> 
     </div>
+    
   </div>
 </body>
 </html>
