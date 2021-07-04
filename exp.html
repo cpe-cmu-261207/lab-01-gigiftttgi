@@ -33,123 +33,95 @@
         background-color: #000000;
         color: #A8EB12;}
 
-    div.h {
-        position: fixed;
-        top: 30px;
-        right: 10px;
-        color: #ffffff;
-        font-family: 'Times New Roman', serif !important;
-        font-size: 60px;
-        font-weight: bold;
-        letter-spacing: 12px;
-        writing-mode: vertical-rl;
-        display: block;
-        flex-wrap: nowrap;
-        }
 
-    div.all {    
-        position: relative;
-        top: 50px;
-        left: -50px;
-        font-family: monospace!important; }
-    
-    p.t1 {
-        border: 3px dashed #d5f78b;
-        border-radius: 10px 10px 0px 0px;
-        /*background-color: #d5f78b;*/
-        width: 700px;
-        padding-top: 5px;
-        font-size: 30px;
-        font-weight: bold;
-        color: #ffffff;
-        display: flex;
-        justify-content: center;
-        display: flex;}
+    .head{
+      position: fixed;
+      top: 0;
+      right: 0;
+      display: block;
+      padding-top: 20px;
+      z-index: 1;}
 
-    p.m1 {
-        width: 700px;
-        height: 150px;
-        border-bottom: 3px dashed #d5f78b;
-        border-left: 3px dashed #d5f78b;
-        border-right: 3px dashed #d5f78b;
-        font-size: 20px;
-        color: #ffffff;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        overflow-y: scroll; 
-        display: flex;}
-        
-    p.t2 {
-        border: 3px solid #b2e73e;
-        border-radius: 10px 10px 0px 0px;
-        width: 700px;
-        padding-top: 5px;
-        font-size: 30px;
-        font-weight: bold;
-        color: #ffffff;
-        display: flex;
-        justify-content: center;}
-
-    p.m2 {
-        width: 700px;
-        height: 150px;
-        border-bottom: 3px solid #b2e73e;
-        border-left: 3px solid #b2e73e;
-        border-right: 3px solid #b2e73e;
-        font-size: 20px;
-        color: #ffffff;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        overflow-y: scroll; }
-
-    div.l{
-      margin-left: 250px;}
-
-    img{
+    .ht {
+      color: #ffffff;
+      font-family: 'Times New Roman', serif !important;
+      font-size: 6vw;
+      font-weight: bold;
+      padding: 10px 10px;
+      text-align: center;
+      writing-mode: vertical-lr; }
+      
+    .main{
       position: relative;
-      left: -50px; 
-      border-radius: 8px;
-      width: 210px;
-      float: left;
-    }
+      top: 0;
+      padding-left: 180px;
+      display: flex; 
+      z-index: -1;}
 
-    .te{
+    .mbl{
+      border: 3px solid papayawhip;
+      border-radius: 10px 10px 10px 10px;
+      width: 42% !important; }
+
+    .mt{
+      color: #ffffff;
+      font-family: 'Times New Roman', serif !important;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px; }
+
+    .ts {
+      font-size: 2vw;
+      padding-bottom: 20px;
       color: #A8EB12; }
+   
+   img{
+    max-width: 700px;
+    max-height: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px; 
+    border-radius: 6%;
+    justify-self: center;}
+
+  .te{
+    color: #A8EB12; }
 
   </style>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 
-<body class="max-w-screen-md mx-auto p-2"> 
+<body> 
   <div class="max-w-screen-md mx-auto p-2">
     <ul class="text-black text-l">
        <li><a href="index.html" target="_self">HOME</a></li>
        <li class="bg-black"><a href="exp.html" target="_self"><span class="te">EXPERIENCE</span></a></li>
        <li><a href="con.html" target="_self">CONTACT<br></a></li>
     </ul>
-    <div class="h">MY <span class="te"> EXPERIENCE</span></div> 
-    <div class="all space-y-10">
-      <div class="l">
-        <p class="t1">hiiiiiiiiiiiii</p>
-        <p class="m1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tenetur minima similique quaerat inventore, itaque obcaecati, alias dolorem, tempore repudiandae ea expedita laboriosam repellendus. Itaque placeat nesciunt quas dignissimos tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vero ducimus, expedita numquam in placeat alias similique temporibus, maiores libero atque, quasi earum natus culpa? In aliquam minima dicta hic?</p>
-      </div>  
-      <div>
-        <p class="t2">hiiiiiiiiiiiii</p>
-        <p class="m2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tenetur minima similique quaerat inventore, itaque obcaecati, alias dolorem, tempore repudiandae ea expedita laboriosam repellendus. Itaque placeat nesciunt quas dignissimos tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vero ducimus, expedita numquam in placeat alias similique temporibus, maiores libero atque, quasi earum natus culpa? In aliquam minima dicta hic?</p>
-      </div> 
-      <div class="l">
-        <p class="t1">hiiiiiiiiiiiii</p>
-        <p class="m1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tenetur minima similique quaerat inventore, itaque obcaecati, alias dolorem, tempore repudiandae ea expedita laboriosam repellendus. Itaque placeat nesciunt quas dignissimos tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vero ducimus, expedita numquam in placeat alias similique temporibus, maiores libero atque, quasi earum natus culpa? In aliquam minima dicta hic?</p>
-      </div> 
-      <div>
-        <p class="t2">hiiiiiiiiiiiii</p>
-        <p class="m2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tenetur minima similique quaerat inventore, itaque obcaecati, alias dolorem, tempore repudiandae ea expedita laboriosam repellendus. Itaque placeat nesciunt quas dignissimos tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vero ducimus, expedita numquam in placeat alias similique temporibus, maiores libero atque, quasi earum natus culpa? In aliquam minima dicta hic?</p>
-      </div> 
-    </div>
-    
   </div>
+
+  <div class="head">
+    <p class="ht">MY <span class="te"> EXPERIENCE</span></p>
+  </div> 
+
+  <div class="space-y-10 p">
+
+  <div class="main space-x-10"> 
+    <div class="mbl">
+      <img src="photo/gogo.png" class="float-none">
+      <p class="mt"><span class="ts">Gogobord Project</span><br> Use the gogoboard to create assistive devices.</p>
+    </div>
+
+    <div class="mbl">
+      <img src="photo/exp1.jpeg" class="float-none">
+      <p class="mt"><span class="ts">Scratch</span><br> My first year project was to create a game using scratch.</p>
+    </div>
+  </div>
+
+  
+</div>
+    
 </body>
 </html>

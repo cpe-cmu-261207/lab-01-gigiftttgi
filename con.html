@@ -32,37 +32,49 @@
         background-color: #000000;
         color: #A8EB12;}
 
-    p.h {
-        position: absolute;
-        margin-top: 40px;
-        z-index: 1;
-        right: 20px;
-        color: #ffffff;
-        font-family: mono !important;
-        font-size: 60px;
+    .head{
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block; }
+
+    .ht {
+        font-size: 6vw;
         font-weight: bold;
-        letter-spacing: 15px;
+        letter-spacing: 7px;
         line-height: 80%;
+        text-align: center;
+        padding: 20px 20px;
         }
 
-    div.m{
+
+    .main{
         position: absolute;
-        top: 280px;
-        right: 100px;
+        top: 10;
+        right: 0;
+        display: block;
+        padding-right: 70px;
+        padding-top: 20px;
+    }    
+
+    .mt{    
         font-family: monospace !important;
-        font-size: 20px;
+        font-size: 2vw;
         display: inline-block;
-        width: 430px;
-        padding: 15px;
+        line-height: 80%;
+        padding-right: 20px;
+        width: auto;
         background-color: #ffffff;
         box-shadow: 8px 8px #A8EB12;
-        line-height: 50%;
     }
+
+
     img {
       position: absolute;
       top: 20px;
       left: 175px;
-      width: 50%;}
+      width: 50% !important;
+      z-index: -1;}
 
     
     .lime{
@@ -83,21 +95,28 @@
        <li><a href="exp.html" target="_self">EXPERIENCE</a></li>
        <li class="bg-black"><a href="con.html" target="_self"><span class="te">CONTACT</span></a></li>
     </ul>
-    <div>
-    <p class="h">CONTACT  ME<br><span class="te">CONTACT  ME</span><br> CONTACT  ME<br> CONTACT  ME</p></div>
-    <img src="photo/pro.jpg">
-    <div class="m">
-      <pre>
-        <p><span class="lime"> NAME</span>       Natcha Silakorn</p>
-        <p><span class="lime"> NICKNAME</span>   Gift</p>
-        <p><span class="lime"> AGE</span>        19</p>
-        <p><span class="lime"> ADDRESS</span>    221B Baker Street</p>
-        <p><span class="lime"> PHONE</span>      098-2456987</p>
-        <p><span class="lime"> FACEBOOK</span>   <a href="https://www.facebook.com/natcha.gift.50" target="blank">Natcha gift</a></p>
-        <p><span class="lime"> EMAIL</span> <a href="mailto:natcha_si@cmu.ac.th">     natcha_si@cmu.ac.th</a></p> 
-      </pre>
-
-    </div>
   </div>
+
+    <div class="head">
+      <h1 class="ht text-white">CONTACT  ME<br><span class="te">CONTACT  ME</span><br> CONTACT  ME<br> CONTACT  ME</h1>
+    
+      <div class="main">
+        <pre class="mt">
+          <p><span class="lime"> NAME</span>       Natcha Silakorn
+          <br><span class="lime"> NICKNAME</span>   Gift
+          <br><span class="lime"> AGE</span>        19
+          <br><span class="lime"> ADDRESS</span>    221B Baker Street
+          <br><span class="lime"> PHONE</span>      098-2456987
+          <br><span class="lime"> FACEBOOK</span>   <a href="https://www.facebook.com/natcha.gift.50" target="blank">Natcha gift</a>
+          <br><span class="lime"> EMAIL</span> <a href="mailto:natcha_si@cmu.ac.th">     natcha_si@cmu.ac.th</a></p> 
+        </pre>
+      </div>
+    </div>
+
+    <div>
+      <img src="photo/pro.jpg">
+    </div>
+    
+
 </body>
 </html>

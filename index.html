@@ -5,21 +5,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> CON/Try </title>
+  <title> HOME </title>
   <style>
     body { 
         font-family: 'Times New Roman', serif !important;
         height: 100%;
-        background: linear-gradient(90deg, #ffffff 150px, rgb(0, 0, 0) 0%); }
+        background-image: url("photo/hompic.JPG");
+        background-color: #000000;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;}
     
     ul {
         list-style-type: none;
         position: fixed;
-        top: 5;
         left: 0;
-        width: 150px;
+        top: 0;
+        width: 100%;
         background-color: #ffffff;
+        padding-top: 400px;
        }
+
+       li {
+  float: left;
+}
+
+
     
     li a {
         display: block;
@@ -32,41 +45,58 @@
         background-color: #000000;
         color: #A8EB12;}
 
-    p.h {
-        position: absolute;
-        right: 20px;
-        color: #ffffff;
-        font-family: mono !important;
-        font-size: 50px;
-        font-weight: bold;
-        /*text-shadow: 2px 2px #A8EB12*/;
-        letter-spacing: 2px;
-        line-height: 80%;
-        }
-    div.m{
-        position: absolute;
-        top: 160px;
-        right: 40px;
-        font-family: monospace!important;
-        font-size: 15px;
-        display: inline-block;
-        width: 350px;
-        padding: 15px;
-        background-color: #ffffff;
-        box-shadow: 8px 8px #A8EB12;
-        line-height: 50%;
-    }
-    img {
-      margin-left: 95px;
-      margin-top: 20px;
-      width: 50%;
-      box-shadow:  -8px -8px #A8EB12;}
-    
-    .lime{
-      color: #8bdd65; }
 
-    .te{
-      color: #A8EB12; }
+    .ht {
+      color: #000000;
+      font-weight: bold;
+      font-size: 4vw;
+      line-height: 150%; }
+    
+    .ht2{
+      font-weight: bold;
+      color: #A8EB12; 
+      text-shadow: 3px 3px #000000;
+      font-size: 9vw;
+      letter-spacing: 4px; 
+      line-height: 100%;
+      }
+
+    .ht1 {
+      color: #000000;
+      font-weight: bold;
+      font-size: 3vw; }
+
+    .skh{
+      font-size: 4vw;  
+    }
+
+    .skt{
+      color: #A8EB12;
+      font-size: 3vw;
+      margin-top: 0.5rem;
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+
+    .p{
+      color: #ffffff;
+      font-size: 2vw;
+      margin-left: 4rem;
+      margin-right: 4rem;
+      margin-top: 0.5rem;
+      padding-bottom: 10px;
+    }
+
+    .l{
+      background-color: #ffffff;
+      border-radius: 2px 2px 2px 2px;
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+      height: 2px;
+    }
+
+      .te{
+        color: #A8EB12; }
 
   </style>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
@@ -74,14 +104,32 @@
 
 
 <body>
+
   <div class="max-w-screen-md mx-auto p-2">
     <ul class="text-black text-l">
-       <li class="bg-black"><a href="index.html" target="_self"><span class="te">HOME</span></a></li>
+       <li  class="bg-black"><a href="index.html" target="_self"><span class="te">HOME</span></a></li>
        <li><a href="exp.html" target="_self">EXPERIENCE</a></li>
        <li><a href="con.html" target="_self">CONTACT<br></a></li>
     </ul>
-    <p class="h">C O N T A C T <br>C O N T A C T<br> C O N T A C T</p>
-    <img src="photo/im.JPG">
+  </div>
+
+  <div> 
+    <p class="ht pl-16 pt-16">HI, I'am </p>
+    <p class="ht2 pl-20 pt-5 pb-5">NATCHA <br>SILAKORN</p>
+    <p class="ht1 ml-14 mr-96 border-t-4 pl-5 pt-5 border-black">COMPUTER ENGINEER</p>
+  </div>
+
+  <div>
+    <p class="skh tracking-widest mt-28 mr-8 ml-8 text-center text-white border-2 border-white">MY SKILL</p>
+    <p class="skt">Programming</p>
+    <pre><p class="p">C++  HTML/CSS  SRATCH </p></pre>
+    <p class="l">line</p>
+    <p class="skt text-right">Tool</p>
+    <pre><p class="p text-right">Git</p></pre>
+    <p class="l">line</p>
+    <p class="skt">Another</p>
+    <pre><p class="p">Photoshop</p></pre>
+    <p class="l">line</p>
   </div>
 </body>
 </html>
